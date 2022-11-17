@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(210, 226, 226);
+}
+.container{
+    width:500px;
+    height: max-content;
+    background-color: white;
+    margin:auto;
+    border-radius: 5px;
+
+}
+.video{
+    width:200px;
+    height: 200px;
+    border:1px solid black;
+    border-radius: 100px;
+    margin:auto;
+}
+.loginform{
+    display: block;
+    margin-top: 50px;
+    padding: 20px;
+    left:50%;
+   
+      
+}
+#labelEmail{
+    display: block;
+    margin-left:40px;
+    color:rgb(24, 123, 253);
+     font-family: Cambria;
+}
+#labelpassword{
+    margin-left:40px;
+    color:rgb(24, 123, 253);
+    font-family: Cambria;
+}
+#labelshow{
+    color:rgb(24, 123, 253);
+    font-family: Cambria;
+}
+input[type=email]{
+    display: block;
+}
+input[type=email],input[type=password],input[type=text],button{
+    width:80%;
+    height: 60px;
+    margin:auto;
+    margin-top:20px;
+    background-color: rgba(0, 204, 255, 0.055);
+    border-radius: 5px;
+}
+#checkbox{
+    position: absolute;
+    margin-left: -20px;
+    
+}
+.flexpass{
+    display: flex;
+    margin-top: 40px;
+}
+input[type=password],input[type=text]{
+    display: block;
+}
+.checkboxspan{
+    margin-left:270px;
+}
+button{
+    margin-left: 45px;
+    background-color: rgb(0, 174, 255);
+    color: white;
+    font-size: 20px;
+}
+button:hover{
+    background-color: rgb(54, 151, 196);
+}
+input:focus{
+    font-size: 20px;
+}
